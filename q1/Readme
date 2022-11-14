@@ -1,0 +1,9 @@
+compile:
+	1. make
+	2. execution file : palindrome
+
+how to run :
+
+	palindrome [num of threads] [input-file] [output-file]
+	
+	ex) ./palindrome 4 words.txt output.txt

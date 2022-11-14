@@ -1,0 +1,12 @@
+compile: 
+	1. make
+	2. execution file : scan / nonblocking / blocking 
+
+how to run:
+	sh execution.sh [scan|nonblocking|blocking] [2|4|8|...|512]
+	
+	ex) sh execution.sh scan 4
+	ex) sh execution.sh nonblocking 8
+	ex) sh execution.sh blocking 16
+
+

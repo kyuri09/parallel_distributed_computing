@@ -1,0 +1,22 @@
+compile: 
+	1. make
+	2. execution file : sequential / parallel
+
+
+how to run
+
+sequential:
+	./sequential [mode] [input image path] [output image path]
+	
+	mode : flip / grayscale / smooth
+	ex) ./sequential grayscale images/discos.ppm discos_gray.ppm
+		./sequential flip images/kim.ppm kim_flip.ppm
+
+parallel:
+	sh execution.sh [mode] [node number] [input image path] [output image path]
+
+	mode : flip / grayscale/ smooth
+	ex) sh execution.sh flip 4 images/discos.ppm discos_parallel_flip.ppm
+		sh execution.sh smooth 8 images/kim.ppm kim_parallel_smooth.ppm
+
+
