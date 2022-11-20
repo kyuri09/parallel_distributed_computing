@@ -1,0 +1,17 @@
+1. make 명령어 입력
+
+2. 실행
+- server
+	a. master-worker
+	 ./server [port num] [the number of threads]
+	b. epoll
+	 ./sp [port num] [the number of threads]
+
+		ex) ./client 9000 4
+
+		
+-client
+	./client [port num] [the number of threads] [filename]
+	
+	ex) ./client 9000 4 list.txt
+
