@@ -1,0 +1,4 @@
+how to execute:
+    1. run './cal_server' on node 1
+    2. run './cal_client node 1' on node 2
+    3. input expression on node 2
